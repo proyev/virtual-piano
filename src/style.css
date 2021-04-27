@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(130deg, #FF7A18, #AF002D 41.07%, #319197 76.05%) no-repeat;
+}
+.container{
+    width: 50vw;
+    height: 33vh;
+    background-color: #F9F6EE;
+    margin: 33% 25%;
+    min-height: 600px;
+    min-width: 200px;
+    max-height: 1500px;
+    max-width: 500px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+}
+.key{
+    background-color: #F9F6EE;
+    border: solid dimgrey 2.5px;
+    width: 15%;
+    font-size: 20px;
+    padding: 70% 20% 20% 20%;
+}
+
+.keyName{
+    /*margin: ;*/
+
+    font-size: 20px;
+}
+
