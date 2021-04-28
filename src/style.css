@@ -1,15 +1,20 @@
 body{
     background: linear-gradient(130deg, #FF7A18, #AF002D 41.07%, #319197 76.05%) no-repeat;
+    background-size: contain;
+    width: 95vw;
+    height: 70vh;
+    padding-top: 15vmax;
+    padding-bottom: 15vmax;
 }
 .container{
-    width: 50vw;
-    height: 33vh;
+    width: 66vmax;
+    height: 33vmax;
+    max-width: 1000px;
+    max-height: 500px;
+    min-width: 600px;
+    min-height: 300px;
     background-color: #F9F6EE;
-    margin: 33% 25%;
-    min-height: 600px;
-    min-width: 200px;
-    max-height: 1500px;
-    max-width: 500px;
+    margin: auto;
     display: flex;
     flex-flow: row;
     flex-wrap: nowrap;
@@ -20,11 +25,10 @@ body{
     border: solid dimgrey 2.5px;
     width: 15%;
     font-size: 20px;
-    padding: 70% 20% 20% 20%;
+    /*padding: 70% 25%;*/
 }
 
 .keyName{
-    /*margin: ;*/
 
     font-size: 20px;
 }
