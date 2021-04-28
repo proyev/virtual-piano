@@ -14,19 +14,19 @@ body{
     display: flex;
     flex-flow: row;
     flex-wrap: nowrap;
-    text-align: center;
-    align-content: flex-end;
 }
 .key{
     position: relative;
     background-color: #F9F6EE;
     border: solid dimgrey 2px;
-
     width: 15%;
     height: 100%;
     font-size: 2vmax;
-    /*padding-top: 25%;*/
-    /*padding-bottom: 5%;*/
 }
 
-
+kbd{
+    position: absolute;
+    padding-top: 250%;
+    margin-left: 45%;
+    margin-right: 45%;
+}
