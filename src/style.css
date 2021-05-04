@@ -24,9 +24,13 @@ body{
     font-size: 2vmax;
 }
 
-kbd{
+.white-keys kbd{
     position: absolute;
     padding-top: 250%;
     margin-left: 45%;
     margin-right: 45%;
+}
+
+.black-keys kbd{
+	background-color:black;
 }
