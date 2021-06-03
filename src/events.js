@@ -4,7 +4,7 @@ document.addEventListener('keydown', function (){
                         'KeyF', 'KeyT',
                         'KeyG', 'KeyY',
                         'KeyH', 'KeyU','KeyJ'];
-   let path = 'audio/';
+   let path = 'src/audio/';
    if (possibleKeys.includes(event.code)){
        console.log(`The '${possibleKeys[possibleKeys.indexOf(event.code)].slice(3)}' key is pressed.`);
        path += event.key.toUpperCase() + '.mp3';
